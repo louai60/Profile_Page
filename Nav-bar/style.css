@@ -13,8 +13,6 @@ li,h1,a,button {
 
 .nav {
     background-color: #3b3c3d;
-    padding: 10px ;
-    margin: 10px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -23,11 +21,9 @@ li,h1,a,button {
 
 .nav-title {
     margin-right: auto;
+    margin-left: 10px;
 }
 
-.nav-links {
-    list-style: none;
-}
 
 .nav-links li {
     display: inline-block;
