@@ -5,20 +5,18 @@ body {
     margin: 0 auto;
 }
 
-/* Nav */
+li,h1,a,button {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
 
 .nav {
     background-color: #3b3c3d;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
-}
-
-a,button {
-    color: #bdbdbd;
-    text-decoration: none;
-    font-weight: 500;
+    border-radius: 5px;
 }
 
 .nav-title {
@@ -26,24 +24,19 @@ a,button {
     margin-left: 10px;
 }
 
-.nav-title,.active {
-    color: #fff;
-}
-
 
 .nav-links li {
     display: inline-block;
-    margin-right: 70px;
+    margin-left: 20px;
 }
-
-
 
 button {
     padding: 6px 10px;
     background-color: aqua;
-    border: 2px solid #000;
+    border-radius: 5px;
+    border: none;
     cursor: pointer;
     margin-left: 20px;
-    box-shadow: rgb(0, 0, 0) 4px 4px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 1, 1);
 }
 
