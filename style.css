@@ -28,14 +28,13 @@ body {
     margin-left: 10px;
 }
 
-.nav-links,.nav-title {
-    margin: 20px 300px 5px 100px;
-    text-decoration: none;
-}
-
 .nav-links li {
     display: inline-block;
     margin-left: 20px;
+}
+
+.nav-title,.nav-links {
+    margin: 20px auto;
 }
 
 .nav-btn {
@@ -46,10 +45,7 @@ body {
     box-shadow: rgb(0, 0, 0) 4px 4px;
 }
 
-/* Main */
-.main {
-    margin-left: 60px;
-}
+
 /* Block 1 */
 .block-1{
     display: flex;
@@ -75,8 +71,18 @@ body {
     margin-left: 50px;
 }
 
+.user-content .name{
+    color: #000;
+    font-weight: bolder;
+}
+
+.edit {
+    color: blue;
+}
+
 .user-content p{
     font-weight: bold;
+    margin-top: 10px;
 }
 
 .user-img1 img {
@@ -86,7 +92,7 @@ body {
 .user-img1 {
     margin-left: 20px;
     position: absolute;
-    top: 200px;  
+    top: 245px;  
 }
 
 .user-img2 {
